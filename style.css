@@ -8,6 +8,7 @@
 
 h1 {
     text-align: center;
+    padding: 1rem;
 }
 
 .icons {
@@ -25,4 +26,22 @@ h1 {
 
 .history {
     padding: 4rem;
+}
+
+.history p {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+h3 {
+    padding-left: 4rem;
+}
+
+body {
+    background-image: url(../04-kapela/img/bg.png);
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
 }
