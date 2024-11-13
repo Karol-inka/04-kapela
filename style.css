@@ -9,3 +9,20 @@
 h1 {
     text-align: center;
 }
+
+.icons {
+    padding: 0.5rem ;
+}
+
+.icons svg{
+    padding: 5px ;
+}
+
+.text p {
+    text-align: center;
+    height: 25px;
+}
+
+.history {
+    padding: 4rem;
+}
