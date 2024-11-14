@@ -7,7 +7,7 @@ body {
 
 h1 {
     text-align: center;
-    padding: 1rem;
+    padding: 3rem;
     font-weight: 800;
     font-style: normal;
 }
@@ -21,13 +21,14 @@ h2 {
 
 h3 {
     padding-left: 4rem;
-    font-weight: 600;
+    font-weight: 700;
     font-style: normal;
 }
 
-h4 {
-    text-align: center;
-    padding: 1rem;
+h4{
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 2rem;
     font-weight: 500;
     font-style: normal;
 }
@@ -59,10 +60,11 @@ a {
 
 .logo img {
     height: 70px;
+    padding: 1rem;
 }
 
 .card img {
-    height: 400px;
+    height: 300px;
     width: auto;
 }
 
@@ -146,4 +148,9 @@ a {
 .buttons .btns:hover {
     color: #000;
     background-color: #b4ecf7;
+}  
+
+footer a {
+    color: #fff ;
+    text-decoration: underline;
 }
