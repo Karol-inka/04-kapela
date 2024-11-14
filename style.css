@@ -1,22 +1,44 @@
-.logo img {
-    height: 70px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:wght@100..900&family=Yeseva+One&display=swap');
 
-.card img {
-    height: 400px;
+body {
+    background-image: url(../04-kapela/img/bg.png);
 }
 
 h1 {
     text-align: center;
     padding: 1rem;
+    font-weight: 800;
+    font-style: normal;
 }
 
-.icons {
-    padding: 0.5rem ;
+h2 {
+    text-align: center;
+    padding: 1rem;
+    font-weight: 700;
+    font-style: normal;
+} 
+
+h3 {
+    padding-left: 4rem;
+    font-weight: 600;
+    font-style: normal;
 }
 
-.icons svg{
-    padding: 5px ;
+h4 {
+    text-align: center;
+    padding: 1rem;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.alba h1 {
+    padding: 3rem;
+}
+
+p {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .text p {
@@ -24,24 +46,99 @@ h1 {
     height: 25px;
 }
 
-.history {
-    padding: 4rem;
-}
-
 .history p {
     padding-left: 4rem;
     padding-right: 4rem;
 }
 
-h3 {
-    padding-left: 4rem;
+
+.logo img {
+    height: 70px;
 }
 
-body {
-    background-image: url(../04-kapela/img/bg.png);
+.card img {
+    height: 400px;
+    width: auto;
 }
 
-.photo {
+.galery img {
+    height: 400px;
+    padding: 2rem;
+}
+
+.photo img {
+    height: 350px;
+}
+
+.alba img {
+    height: 200px;
+}
+
+.icons svg {
+    padding: 5px;
+}
+
+.alba {
+    text-align: center;
+}
+
+.alba .album {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border: 2px;
+    color: #000;
+    border-radius: 0px;
+    text-decoration: none;
+    height: 110px;
+    width: 300px;
+}
+
+.alba .album:hover {
+    color: #000;
+    background-color: #b4ecf7;
+}
+
+.button {
     display: flex;
+    align-items: center;
     justify-content: center;
+    text-align: center;
+}
+
+.button .btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border: 2px solid #000;
+    color: #000;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all .3s linear;
+    border-radius: 50px;
+}
+
+.button .btn:hover {
+    color: #000;
+    background-color: #b4ecf7;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.buttons .btns {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border: 2px solid #000;
+    color: #000;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.buttons .btns:hover {
+    color: #000;
+    background-color: #b4ecf7;
 }
