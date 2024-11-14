@@ -62,7 +62,7 @@ p {
 }
 
 .galery img {
-    height: 400px;
+    width: auto;
     padding: 2rem;
 }
 
